@@ -1,0 +1,73 @@
+.Home{
+    height: 94vh;
+    width: 100vw;
+    
+}
+.Homecontent{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.NavBar{
+    height:10vh;
+    width: 64vw;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px; 
+    margin-left:35%;
+    margin-top:0vh;
+    position: fixed;
+}
+
+.imagebox{
+    height: 99vh;
+    width: 35vw;
+    background-color: transparent;
+    border-radius:  20px;
+    position: fixed;
+    
+}
+.imginnerbox{
+    height: 600px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+.myimage{
+      height: 600px;
+      width: 400px;
+      border-radius: 20px;
+      transition: transform 3s ease;
+      transform: scale(1);
+      box-shadow: 0px 0px 30px black;
+  }
+  
+  .myimage:hover{
+      box-shadow: 0px 0px 30px black;
+      transition: transform 1s ease;
+      transform: scale(1.1);
+  }
+
+.content{
+    height:65vh;
+    width: 64vw;
+    background-color: transparent;
+  
+    border-radius: 20px; 
+    margin-left:35%;
+    margin-top:12vh; 
+    position: fixed;
+}
+
+.footer{
+    height:20vh;
+    width: 64vw;
+    background-color: transparent;
+    border-radius: 20px; 
+    margin-left:35%;
+    margin-top:79vh;
+    position: fixed;
+}

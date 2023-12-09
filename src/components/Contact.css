@@ -1,0 +1,36 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  
+  }
+  .icon-button{
+    background-color:transparent;
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    gap: 10px;
+    margin-left: 10px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+  
+  .icon-button:hover{
+    border-radius: 50px;
+    cursor: pointer;
+    border:none;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icon{
+    color: black;
+    transition: transform 0.3s ease;
+  }
+  .icon:hover{
+    color: black;
+    transform: scale(1.5);
+  }
