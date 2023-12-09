@@ -3,11 +3,11 @@
     width: 100%;
     display: flex;
     align-items: center;
-    margin-left: 20px;
+    margin-left: 200px;
 }
 .HomoLogobox{
-    height: 50px;
-    width: 100px;
+    height: 70px;
+    width: 200px;
 
 }
 img{
@@ -16,6 +16,7 @@ img{
     cursor: pointer;
     transition: transform 1s ease;
     transform: scale(0.8);
+    border-radius: 10px;
 }
 img:hover{
     transition: transform 1s ease;
@@ -29,18 +30,26 @@ img:hover{
 .Nav{
     height: 40px;
     width: 100px;
-    border: 1px solid black;
+ 
     
 }
 .NavButton{
     height: 100%;
-    width: 100%;
+    min-width: 100%;
+    width: fit-content;
     border-radius: 10px;
     transition: transform 1s ease;
     transform: scale(1);
 }
-.NavButton:hover{
-    transition: transform 1s ease;
+.NavButton:hover {
+    transition: background-color 0.3s ease, transform 1s ease;
     transform: scale(1.1);
     cursor: pointer;
 }
+button{  font-family: "IM Fell English";
+    font-size: 20px;
+     font-style: normal; 
+    font-variant: normal;
+    font-weight: 700; 
+    
+  }

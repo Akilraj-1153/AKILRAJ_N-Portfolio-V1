@@ -2,7 +2,7 @@
 import './App.css';
 import HomePage from './components/HomePage';
 import Akilimage from './images/Homeimg.jpg';
-import Logo from './images/HomeLogo3.png';
+import Logo from './images/HomeLogo6.png';
 
 function App() {
   return (
