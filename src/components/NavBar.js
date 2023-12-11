@@ -4,7 +4,7 @@ function NavBar(props) {
   return (
     <div className='Navbar'>
         <div className='HomoLogobox'>
-            <img src={props.logo} alt="HomeLogo" />
+            <img className='homeimg' src={props.logo} alt="HomeLogo" />
         </div>
         <div className='NavbarBtns'>
             <div className="Nav"><button className='NavButton'>About Me</button></div>

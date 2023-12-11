@@ -3,6 +3,10 @@ import './HomePage.css'
 import AboutMe from './AboutMe';
 import Contact from './Contact';
 import NavBar from './NavBar';
+import Certifications from './Certifications';
+
+
+
 
 function HomePage(props) {
   return (
@@ -20,7 +24,8 @@ function HomePage(props) {
                 <NavBar logo={props.logo}></NavBar>
              </div>
              <div className="content">
-                <AboutMe></AboutMe>
+                <Certifications cert={props.cert}></Certifications>
+                {/* <AboutMe></AboutMe> */}
              </div>
              <div className="footer">
                 <Contact></Contact>

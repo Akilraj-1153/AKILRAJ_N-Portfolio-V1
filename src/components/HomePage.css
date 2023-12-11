@@ -52,21 +52,24 @@
   }
 
 .content{
-    height:65vh;
+    height:75vh;
     width: 64vw;
     background-color: transparent;
     border-radius: 20px; 
     margin-left:35%;
     margin-top:12vh; 
     position: fixed;
+    border: 2px solid white;
+    
 }
 
 .footer{
-    height:20vh;
+    height:10vh;
     width: 64vw;
     background-color: transparent;
     border-radius: 20px; 
     margin-left:35%;
-    margin-top:79vh;
+    margin-top:89vh;
     position: fixed;
+    
 }

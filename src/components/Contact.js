@@ -13,7 +13,7 @@ function Contact() {
   return (
     <div>
         <div class="contact">
-            <h5>Contact me in</h5>
+            <h2>Contact me in</h2>
             <button class="icon-button">
             <ExternalLink href='https://www.linkedin.com/in/akilrajn1153'><FaLinkedinIn size={35}  className="icon"  /></ExternalLink>
                 </button>
