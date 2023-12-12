@@ -6,9 +6,15 @@
 
 }
 
-
+.skill h2{
+    text-decoration: underline;
+}
 .section h2{
     margin-top: -10px;
+    text-decoration: underline;
+}
+.section h2,h3{
+    text-decoration: underline;
 }
 ::-webkit-scrollbar{
     background-color: transparent;

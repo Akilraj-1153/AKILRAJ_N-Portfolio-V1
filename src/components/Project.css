@@ -1,76 +1,81 @@
-
-
-.projheader{
+.projheader {
     height: 70px;
     width: 64vw;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   border-radius: 20px;
-}
-.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  }
+  
+  .projects {
     height: auto;
     width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-}
-.projheader h1{
-    height:5vh;
+  }
+  
+  .projheader h1 {
+    height: 5vh;
     width: 150px;
-    background-color: white;
+    /* background-color: white; */
     text-align: center;
+    color: white;
     border-radius: 10px;
-}
-.projimgbox{
+  }
+  
+  .projimgbox {
     height: 44vh;
     width: 100%;
     border-radius: 20px;
     display: flex;
     justify-content: center;
-}
-.projitem{
+  }
+  
+  .projitem {
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center; 
-}
-.projcontent{
+    align-items: center;
+  }
+  
+  .projcontent {
     margin-top: 18px;
     height: 19vh;
     width: 100%;
     border-radius: 20px;
-}
-.disp{
+    color: white; 
+  }
+  
+  .disp {
     height: fit-content;
     border-radius: 20px;
-}
-
-.projimg{
+  }
+  
+  .projimg {
     height: 44vh;
     width: 44vw;
     border-radius: 20px;
-}
-.projcontent{
-    color: white;
-    border-radius: 20px;
-}
-#projtitle{
-    display: flex ;
-    gap: 10px;  
+  }
+  
+  #projtitle {
+    display: flex;
+    gap: 10px;
     height: 40px;
     justify-content: center;
     align-items: center;
-}
-#projtitle h2{
+  }
+  
+  #projtitle h2 {
     text-align: center;
     font-size: 25px;
-}
-.projcontent p{
+  }
+  
+  .projcontent p {
     text-align: center;
     margin-left: 10px;
     margin-right: 20px;
-}
+  }
+  

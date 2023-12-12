@@ -1,28 +1,31 @@
-.aboutme{
-    color: white;   
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .name{
-    font-size: 75px;
-    text-decoration: underline;
-  }
-  .About{
-    width: 800px;
-    justify-content: center ;
-    text-align:justify;
-    margin-left: 30px;
-    margin-top: -20px;
-    margin-right: 30px;
-    font-size: 30px;
-  }
-   
-  h1,h2{  font-family: "IM Fell English";
-    font-size: 30px; font-style: normal; 
-    font-variant: normal;
-    font-weight: 700; 
-    
-  }
-  
+.aboutme {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  font-size: 75px;
+  text-decoration: underline;
+}
+
+.About {
+  width: 800px;
+  justify-content: center;
+  text-align: justify;
+  margin-left: 30px;
+  margin-top: -20px;
+  margin-right: 30px;
+  font-size: 30px;
+}
+
+h1,
+h2 {
+  font-family: "IM Fell English";
+  font-size: 30px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+}

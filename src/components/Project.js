@@ -1,4 +1,3 @@
-
 import React from 'react';
 import './Project.css';
 import Slider from 'react-slick';
@@ -30,7 +29,7 @@ function Project({ proj }) {
     'Streamline your calculations with our sleek and user-friendly Simple Calculator. Developed using HTML, CSS, and JavaScript, it offers a smooth interface for basic arithmetic, making number crunching a breeze.',
   ];
 
-  const projLink=[
+  const projLinks = [
     'https://akilraj-1153.github.io/React-js-Rock_paper_scissors/',
     'https://akilraj-1153.github.io/Odin-Student-Etch-a-Sketch/',
     'https://akilraj-1153.github.io/Odin-Student-Calculator/'
@@ -41,18 +40,17 @@ function Project({ proj }) {
       <div className='projheader'>
         <h1>Projects</h1>
       </div>
-      <div >
+      <div>
         <Slider className='slider' {...settings} style={{ width: '64vw', margin: '0 auto' }}>
-            
           {proj.map((project, index) => (
             <div className="projitem" key={index}>
               <div className="projimgbox">
-                <img className="projimg" src={project} alt={`Projects ${index}`} />
+                <img className="projimg" src={project} alt={`Project ${index}`} />
               </div>
               <div className="projcontent">
                 <div id='projtitle'>
                   <h2>{projTitles[index]}</h2>
-                  <button ><ExternalLink href={projLink[index]}>visit the page</ExternalLink></button>
+                  <button><ExternalLink href={projLinks[index]}>Visit the page</ExternalLink></button>
                 </div>
                 <p>{projDescriptions[index]}</p>
               </div>

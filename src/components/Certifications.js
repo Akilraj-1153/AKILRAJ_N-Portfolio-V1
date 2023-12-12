@@ -35,13 +35,12 @@ function Certifications({ cert }) {
         </div>
       </div>
       <div className='certdisplay'>
-        
-        <Slider {...settings}>       
+        <Slider {...settings}>
           {cert.map((certificate, index) => (
-            <div className="display">
-                <img className="certimg" src={certificate} key={index} alt={`Certificate ${index}`} /> 
+            <div className="display" key={index}>
+              <img className="certimg" src={certificate} alt={`Certificate ${index}`} /> 
             </div>
-             ))}
+          ))}
         </Slider>
       </div>
     </div>
