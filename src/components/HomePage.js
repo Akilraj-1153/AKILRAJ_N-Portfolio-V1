@@ -9,7 +9,7 @@ import Resume from './Resume';
 import Skill from './Skill';
 
 function HomePage({ image, logo, resume, proj, cert }) {
-  const [activeComponent, setActiveComponent] = useState('certifications');
+  const [activeComponent, setActiveComponent] = useState('aboutme');
 
   function handleButtonClick(component) {
     setActiveComponent(component);
