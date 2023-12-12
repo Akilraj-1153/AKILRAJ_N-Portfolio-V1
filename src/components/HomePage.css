@@ -59,8 +59,8 @@
     margin-left:35%;
     margin-top:12vh; 
     position: fixed;
-    border: 2px solid white;
-    overflow: hidden;
+    /* border: 2px solid white; */
+    overflow: scroll;
     
 }
 

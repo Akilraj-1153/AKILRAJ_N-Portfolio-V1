@@ -4,14 +4,13 @@ function NavBar(props) {
   return (
     <div className='Navbar'>
         <div className='HomoLogobox'>
-            <img className='homeimg' src={props.logo} alt="HomeLogo" />
+            <img className='homeimg' src={props.logo} alt="HomeLogo" onClick={()=> props.onButtonClick('aboutme')} />
         </div>
         <div className='NavbarBtns'>
-            <div className="Nav"><button className='NavButton'>About Me</button></div>
-            <div className="Nav"><button className='NavButton'>Resume</button></div>
-            <div className="Nav"><button className='NavButton'>Projects</button></div>
-            <div className="Nav"><button className='NavButton'>Skill</button></div>
-            <div className="Nav"><button className='NavButton'>Certifications</button></div>
+            <div className="Nav"><button className='NavButton' onClick={()=> props.onButtonClick('resume')}>Resume</button></div>
+            <div className="Nav"><button className='NavButton' onClick={()=> props.onButtonClick('project')}>Projects</button></div>
+            <div className="Nav"><button className='NavButton' onClick={()=> props.onButtonClick('skill')}>Skill</button></div>
+            <div className="Nav"><button className='NavButton' onClick={()=> props.onButtonClick('certifications')}>Certifications</button></div>
         </div>
     </div>
   )
