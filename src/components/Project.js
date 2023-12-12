@@ -1,4 +1,4 @@
-// Project.js
+
 import React from 'react';
 import './Project.css';
 import Slider from 'react-slick';
@@ -9,6 +9,7 @@ import { ExternalLink } from 'react-external-link';
 function Project({ proj }) {
   const settings = {
     dots: false,
+    arrows: false,
     infinite: true,
     speed: 1500,
     slidesToShow: 1,
@@ -42,19 +43,19 @@ function Project({ proj }) {
       </div>
       <div >
         <Slider className='slider' {...settings} style={{ width: '64vw', margin: '0 auto' }}>
-            {/* style={{ width: '80%', margin: '0 auto' }} */}
+            
           {proj.map((project, index) => (
             <div className="projitem" key={index}>
               <div className="projimgbox">
                 <img className="projimg" src={project} alt={`Projects ${index}`} />
               </div>
-              {/* <div className="projcontent">
+              <div className="projcontent">
                 <div id='projtitle'>
                   <h2>{projTitles[index]}</h2>
                   <button ><ExternalLink href={projLink[index]}>visit the page</ExternalLink></button>
                 </div>
                 <p>{projDescriptions[index]}</p>
-              </div> */}
+              </div>
             </div>
           ))}
         </Slider>
@@ -64,4 +65,3 @@ function Project({ proj }) {
 }
 
 export default Project;
-    

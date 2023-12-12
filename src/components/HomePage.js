@@ -5,6 +5,7 @@ import Contact from './Contact';
 import NavBar from './NavBar';
 import Certifications from './Certifications';
 import Project from './Project';
+import Resume from './Resume';
 
 
 
@@ -16,7 +17,7 @@ function HomePage(props) {
         <div>
              <div className='imagebox'>
                 <div className='imginnerbox'>
-                {/* <img className='myimage' src={props.image} alt='AKIL'></img>  */}
+                <img className='myimage' src={props.image} alt='AKIL'></img> 
                 </div>
              </div> 
         </div>
@@ -27,7 +28,8 @@ function HomePage(props) {
              <div className="content">
                 {/* <Certifications cert={props.cert}></Certifications> */}
                 {/* <AboutMe></AboutMe> */}
-                <Project proj={props.proj}></Project>
+                {/* <Project proj={props.proj}></Project> */}
+                <Resume resume={props.resume}></Resume>
              </div>
              <div className="footer">
                 <Contact></Contact>

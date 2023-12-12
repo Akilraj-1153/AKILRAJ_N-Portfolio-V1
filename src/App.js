@@ -2,6 +2,9 @@
 import React from 'react';
 import './App.css';
 import HomePage from './components/HomePage';
+import { Worker } from '@react-pdf-viewer/core';
+import resume from './assets/AKILRAJ N RESUME.pdf'
+
 import Akilimage from './images/Homeimg.jpg';
 import Logo from './images/HomeLogo6.png';
 
@@ -17,6 +20,7 @@ import certificate8 from './images/Machine Learning Onramp.jpg'
 import project1 from './images/ROCK PAPER SCISSOR.png';
 import project2 from './images/Etch-a-Sketch Color Game.png';
 import project3 from './images/SIMPLE CALCULATOR.png';
+
 
 function App() {
   const certificates = [
@@ -38,7 +42,8 @@ function App() {
 
   return (
     <div className="App">
-      <HomePage image={Akilimage} logo={Logo} cert={certificates} proj={projects} />
+      <HomePage image={Akilimage} logo={Logo} cert={certificates} proj={projects} resume={resume} />
+      <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js"></Worker>
     </div>
   );
 }
