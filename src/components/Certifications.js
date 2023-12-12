@@ -42,10 +42,7 @@ function Certifications({ cert }) {
                 <img className="certimg" src={certificate} key={index} alt={`Certificate ${index}`} /> 
             </div>
              ))}
-
         </Slider>
-          
-
       </div>
     </div>
   );
