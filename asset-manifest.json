@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AKIL-PORTFOLIO/static/css/main.0169e3f4.css",
-    "main.js": "/AKIL-PORTFOLIO/static/js/main.5c58c4b5.js",
+    "main.js": "/AKIL-PORTFOLIO/static/js/main.4d35d494.js",
     "static/js/787.7b3eeb9b.chunk.js": "/AKIL-PORTFOLIO/static/js/787.7b3eeb9b.chunk.js",
     "static/media/Homeimg.jpg": "/AKIL-PORTFOLIO/static/media/Homeimg.1623469d2e985f4a49d7.jpg",
     "static/media/Blockchain Basics.jpg": "/AKIL-PORTFOLIO/static/media/Blockchain Basics.c83a326f5b32fdce720a.jpg",
@@ -23,11 +23,11 @@
     "static/media/slick.woff": "/AKIL-PORTFOLIO/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/AKIL-PORTFOLIO/index.html",
     "main.0169e3f4.css.map": "/AKIL-PORTFOLIO/static/css/main.0169e3f4.css.map",
-    "main.5c58c4b5.js.map": "/AKIL-PORTFOLIO/static/js/main.5c58c4b5.js.map",
+    "main.4d35d494.js.map": "/AKIL-PORTFOLIO/static/js/main.4d35d494.js.map",
     "787.7b3eeb9b.chunk.js.map": "/AKIL-PORTFOLIO/static/js/787.7b3eeb9b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0169e3f4.css",
-    "static/js/main.5c58c4b5.js"
+    "static/js/main.4d35d494.js"
   ]
 }
